@@ -10,7 +10,7 @@ class About extends Component {
     + ` orienté dans le développement web et mobile, je travaille principalement`
     + ` avec JavaScript et NodeJS avec une affection particulière pour React/React Native.`
     + ` Je maîtrise l'environnement Linux et Windows ainsi que le logiciel de gestion de version Git.`;
-    const available = `Je réside actuellement à Paris et à la recherche d'un stage en part-time en France pour septembre.`;
+    const available = `Résidant à Paris, je suis actuellement à la recherche d'un stage en part-time en France pour septembre.`;
     return (
         <div className={classes.about}>
           <div className={classes.backgroundPP}><div className={classes.PP}></div>
