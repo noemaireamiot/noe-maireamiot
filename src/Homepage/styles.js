@@ -34,6 +34,30 @@ export const styles = {
     fontSize: '4vw',
     margin: 'auto'
   },
+  wrapperNameDownload: {
+    display: 'flex',
+    flexDirection: 'column',
+    margin: 'auto'
+  },
+  linkCV: {
+    padding: '12px',
+    borderRadius: '30px',
+    border: '2px white solid',
+    backgroundColor: 'transparent',
+    color: 'white',
+    margin: 'auto',
+    textDecoration: 'none',
+    '&:hover': {
+      backgroundColor: 'white',
+      color: 'black',
+      transition: '.20s ease-in-out',
+      '-moz-transition': '.20s ease-in-out',
+      '-webkit-transition': '.20s ease-in-out',
+    },
+    '&:focus': {
+      outline: '0 !important'
+    }
+  },
   letter: {
     transformOrigin: '50% 100%',
     color: 'white',

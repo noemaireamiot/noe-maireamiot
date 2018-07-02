@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import injectSheet from 'react-jss';
 import { styles } from './styles.js';
 import AnimeName from './AnimeName.js';
+import ProfilePicture from './../pictures/noeMaireAmiotCV.pdf';
 
 
 class Homepage extends Component {
@@ -16,7 +17,12 @@ class Homepage extends Component {
               <button key={`category-${e.type}`} className={classes.button} onClick={() => handleClick(e.type)}>{e.name}</button>
             ))}
           </div>
+            <div className={classes.wrapperNameDownload}>
             <AnimeName/>
+              <a href={ProfilePicture} download='noeMaireAmiotCV' className={classes.linkCV}>
+                Télécharger mon CV
+              </a>
+            </div>
         </div>
       </div>
       )
