@@ -6,11 +6,11 @@ import { styles } from './styles.js';
 class About extends Component {
   render() {
     const { classes } = this.props;
-    const resume = `Je suis Noé Maire-Amiot, étudiant en 4ème année à EPITECH, résidant à Jönköping en Suède dans le cadre de mon cursus pour y valider une année`
-    + ` universitaire. Orienté dans le web développement full-stack, je travaille principalement`
-    + ` avec JavaScript et NodeJS avec une affection particulière pour React.`
+    const resume = `Étudiant en 5ème année à EPITECH et`
+    + ` orienté dans le développement web et mobile, je travaille principalement`
+    + ` avec JavaScript et NodeJS avec une affection particulière pour React/React Native.`
     + ` Je maîtrise l'environnement Linux et Windows ainsi que le logiciel de gestion de version Git.`;
-    const available = `Je suis actuellement à la recherche d'un stage en part-time en France pour septembre.`;
+    const available = `Je réside actuellement à Paris et à la recherche d'un stage en part-time en France pour septembre.`;
     return (
         <div className={classes.about}>
           <div className={classes.backgroundPP}><div className={classes.PP}></div>
