@@ -6,11 +6,9 @@ import { styles } from './styles.js';
 class About extends Component {
   render() {
     const { classes } = this.props;
-    const resume = `Étudiant en 5ème année à EPITECH et`
-    + ` orienté dans le développement web et mobile, je travaille principalement`
-    + ` avec JavaScript et NodeJS avec une affection particulière pour React/React Native.`
-    + ` Je maîtrise l'environnement Linux et Windows ainsi que le logiciel de gestion de version Git.`;
-    const available = `Résidant à Paris, je suis actuellement à la recherche d'un stage en part-time en France pour septembre.`;
+
+    const resume = "Développeur full stack, je suis à la recherche d'un poste de développeur/lead technique, j'aime apporter et partager mes connaissances mais je cherche aussi à apprendre et m'inspirer des personnes qui m'entourent."
+    const available = `À propos de moi, je viens de Franche-Comté, j'ai donc un penchant pour le bon fromage. Je réside actuellement à Paris dans le 20ème arrondissement et j'ai 26 ans.`;
     return (
         <div className={classes.about}>
           <div className={classes.backgroundPP}><div className={classes.PP}></div>

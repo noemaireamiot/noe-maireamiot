@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import injectSheet from 'react-jss';
 import { styles } from './styles.js';
 
-const skills = ['HTML', 'CSS', 'SASS', 'JavaScript', 'Node.JS', 'React', 'Redux', 'React Native', 'Meteor', 'MongoDB', 'SQL', 'REST API', 'C/C++', 'Python']
+const skills = ['HTML', 'CSS','SASS' , 'React', 'Redux', 'PHP', 'Symfony', 'JavaScript', 'TypeScript', 'Node.JS', 'Strapi', 'NexJS', 'Elasticsearch', 'MongoDB', 'SQL', 'REST API', 'C/C++', 'Python']
 
 class Skills extends Component {
   render() {

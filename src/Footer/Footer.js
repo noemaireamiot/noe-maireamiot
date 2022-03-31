@@ -10,7 +10,7 @@ class Footer extends Component {
     return (
       <div className={classes.footer}>
         <div className={classes.copyright}>
-          <span>Copyright © 2017 Noé Maire-Amiot</span>
+          <span>Copyright © 2022 Noé Maire-Amiot</span>
         </div>
         <div className={classes.made}>
           <a className={classes.madeLink} href='https://reactjs.org/' target='_blank' rel='noopener noreferrer'><div className={classes.reactIcon + ' ' + classes.madeIcon}></div></a>
